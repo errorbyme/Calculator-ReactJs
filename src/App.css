@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container-fluid {
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-fluid .wrapper {
+  max-width: 400px;
+  width: 100%;
+}
+.container-fluid .wrapper input::placeholder {
+  color: white;
+  opacity: 0.4;
+}
+.container-fluid .wrapper input {
+  padding: 15px;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  font-size: 1.2rem;
+  background-color: transparent;
+  color: white;
+  font-weight: bolder;
+  text-align: end;
+}
+.container-fluid .wrapper .box {
+  padding: 5px;
+  text-align: center;
+}
+.container-fluid .wrapper .box button {
+  background-color: rgb(42, 42, 42);
+  color: white;
+  border: none;
+  width: 90%;
+  height: 60px;
+  border-radius: 20px;
+  padding: 10px 5px;
+}
+.container-fluid .wrapper .box:nth-child(1) button {
+  background-color: rgba(25, 0, 255, 0.474);
+}
+.container-fluid .wrapper .box:nth-child(4) button {
+  background-color: rgba(136, 255, 152, 0.474);
+}
+.container-fluid .wrapper .box:nth-child(20) button {
+  background-color: orange;
+}
+.container-fluid .wrapper .box button span {
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+.container-fluid .wrapper .buttons-group {
+  width: 100%;
+}
